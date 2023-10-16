@@ -620,7 +620,6 @@ p{
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 0.04em;
-    display: inline-flex;
     align-items: center;
     line-height: 1.17;
 }
@@ -629,6 +628,9 @@ p{
     text-decoration: underline;
     line-height: 16px;
     padding-left: 3px;
+}
+.modal-field-last .check-text .footer-label-checkbox{
+    display: inline-flex;
 }
 .footer-label-checkbox{
     display: inline-flex;
