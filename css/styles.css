@@ -420,9 +420,9 @@ p{
 
 .footer-form{
     display: flex;
+    gap: 24px;
 }
 .footer-form-label{
-    gap: 24px;
     display: flex;
 }
 .footer-input{
