@@ -417,41 +417,51 @@ p{
 .footer-li-icon{
     fill: var(--cloud);
 }
-.footer-div-input{
+
+.footer-form{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
+}
+.footer-form-label{
+    gap: 24px;
+    display: flex;
 }
 .footer-input{
     width: 264px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid var(--white);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    background-color: var(--navyblue);
+    background-color: transparent;
     padding-left: 16px;
-    color: var(--cloud);
+    color: var(--white);
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     margin-right: 24px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 .footer-input::placeholder{
     font-size: 12px;
-    color: var(--cloud);
+    color: var(--white);
 }
 .footer-btn{
-    width: 165px;
+    min-width: 165px;
     height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     border: none;
     background-color: var(--iris);
     border-radius: 4px;
-    color: var(--cloud);
-    padding: 8px 24px;
-    text-align:left;
+    color: var(--white);
+    cursor: pointer
 }
 .footer-icon-sub{
-    position: absolute;
-    top: 8px;
-    right: 24px;
+    margin-left: 16px;
+    
 }
 
         /* Modal window*/
